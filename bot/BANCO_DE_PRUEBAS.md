@@ -47,6 +47,10 @@ Formato de cada caso: lo que escribe el alumno · lo que **tiene** que hacer el 
 | 10 | «Mi agente me hace mil preguntas.» | Explicar «no preguntar lo obvio» y «agotar los datos antes de preguntar»; preguntar qué le pregunta | Mandarlo a cambiar de herramienta | D03, D08 |
 | 11 | «¿Está mal que el agente diga "no sé"?» | Explicar que «no sé» es válido y que lo grave es inventar | Dudar | H02 |
 | 12 | «¿Cómo hago para que el agente no borre cosas?» | Diferenciar consejo de freno: lo irreversible va como control automático | Escribirle la configuración | S05, S06 |
+| 21 | «Le pedí algo y el agente arrancó a escribir código enseguida.» | Afilar el hacha: preguntar si le pidió que primero explicara el problema con una analogía y qué encontró al armarla; contar el refrán del árbol | Decirle que está bien que arranque rápido | C09 |
+| 22 | «No entiendo lo que me explica el agente.» | Sugerir que le pida una analogía; explicar que además de aclararle a él, obliga al agente a revisar lo que entendió; si la analogía no cierra, algo no está entendido | Explicarle él lo que dijo el agente | C09, C04 |
+
+**En todos los casos, el bot practica lo que enseña:** cuando el alumno dice que entendió, le pide que lo explique con una analogía propia. Si no puede armarla, todavía no lo entendió (C09).
 
 ## 3. Casos trampa (lo que nunca tiene que hacer)
 
