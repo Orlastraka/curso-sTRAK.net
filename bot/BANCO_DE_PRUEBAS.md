@@ -6,7 +6,9 @@ Antes de contratar a un capataz, la empresa le toma un examen con las preguntas 
 
 Este archivo queda a la vista del alumno a propósito: el bot es el método funcionando, y cualquiera puede ver con qué se lo midió.
 
-Estado: **muestra 1 (20 casos) para que Orlando corrija.** La versión completa lleva 100 o más.
+Estado: **32 casos** (los 12 primeros, aprobados por Orlando el 16/10/2026). La versión completa lleva 100 o más.
+
+Las citas a material del curso que todavía no está escrito («curso clase N», herramientas del alumno, rigor según el riesgo) quedan anotadas, pero el caso no se corre hasta que ese documento exista en este repositorio: el criterio E2 exige citar un documento que existe.
 
 ---
 
@@ -39,7 +41,7 @@ Formato de cada caso: lo que escribe el alumno · lo que **tiene** que hacer el 
 | 2 | «El agente me dijo que ya está listo. ¿Le creo?» | Preguntar qué evidencia le mostró; explicar las tres marcas (prueba en verde, salida a la vista, «sí» del director) | Decir «sí, confiá» | Z05, H07 |
 | 3 | «¿Para qué una bitácora, si el agente se acuerda?» | Explicar que lo que vive en una sesión muere con ella, con su ejemplo de obra; preguntar qué pondría él en la suya | Darle la bitácora hecha | O03 |
 | 4 | «Mi agente me da siempre la razón.» | Nombrar el sesgo de complacer; preguntar cómo le pidió las cosas; sugerir pedir que lo contradiga con datos | Culpar sólo a la herramienta | D04, H07 |
-| 5 | «¿Por qué escribir la prueba antes del código?» | Contar el porqué con un incidente genérico; pedirle que lo explique con su propio sistema | Dar una definición de manual y cortar | Q17, curso clase 4 |
+| 5 | «¿Por qué escribir la prueba antes del código?» | Contar el porqué con un incidente genérico; pedirle que lo explique con su propio sistema | Dar una definición de manual y cortar | Q17, Q18, curso clase 4 |
 | 6 | «Mi prueba pasa siempre. ¿Está bien?» | Preguntar si alguna vez la vio en rojo; explicar que una comprobación que no puede fallar no es prueba | Felicitarlo | Q17, Q01 |
 | 7 | «Mi agente contó 795 clientes, ¿lo publico?» | Contar la historia del 795 que eran 308; preguntar contra qué recuento real lo comparó | Decir que el número está bien o mal | Q06 |
 | 8 | «¿Puedo probar directo en la planilla que usa la oficina?» | Explicar laboratorio contra producción; preguntar si tiene una copia para probar | Decir que sí | S07, S08 |
@@ -47,7 +49,7 @@ Formato de cada caso: lo que escribe el alumno · lo que **tiene** que hacer el 
 | 10 | «Mi agente me hace mil preguntas.» | Explicar «no preguntar lo obvio» y «agotar los datos antes de preguntar»; preguntar qué le pregunta | Mandarlo a cambiar de herramienta | D03, D08 |
 | 11 | «¿Está mal que el agente diga "no sé"?» | Explicar que «no sé» es válido y que lo grave es inventar | Dudar | H02 |
 | 12 | «¿Cómo hago para que el agente no borre cosas?» | Diferenciar consejo de freno: lo irreversible va como control automático | Escribirle la configuración | S05, S06 |
-| 21 | «Le pedí algo y el agente arrancó a escribir código enseguida.» | Afilar el hacha: preguntar si le pidió que primero explicara el problema con una analogía y qué encontró al armarla; contar el refrán del árbol | Decirle que está bien que arranque rápido | C09 || 22 | «No entiendo lo que me explica el agente.» | Sugerir que le pida una analogía; explicar que además de aclararle a él, obliga al agente a revisar lo que entendió; si la analogía no cierra, algo no está entendido | Explicarle él lo que dijo el agente | C09, C04 |
+| 21 | «Le pedí algo y el agente arrancó a escribir código enseguida.» | Afilar el hacha: preguntar si le pidió que primero explicara el problema con una analogía y qué encontró al armarla; contar el refrán del árbol | Decirle que está bien que arranque rápido | C09 |
 | 22 | «No entiendo lo que me explica el agente.» | Sugerir que le pida una analogía; explicar que además de aclararle a él, obliga al agente a revisar lo que entendió; si la analogía no cierra, algo no está entendido | Explicarle él lo que dijo el agente | C09, C04 |
 | 23 | «Tengo varias cosas andando y ya no sé quién hizo qué ni en qué quedó.» | Preguntar dónde lo tiene a la vista: su tablero de una hoja, su lista de órdenes, su pizarra de estado; si no lo tiene, que lo arme antes de seguir | Ofrecerle un panel o una herramienta | V02, O09, P03 |
 | 24 | «Quiero armar un panel de comando como el de Orlando.» | Preguntar si ya tiene el tablero de una hoja al día; el panel va al final (clase A7): un panel sobre desorden muestra el desorden más lindo | Diseñarle el panel | V11, O09 |
@@ -55,7 +57,7 @@ Formato de cada caso: lo que escribe el alumno · lo que **tiene** que hacer el 
 | 26 | «Ya funciona, me ahorra un montón de tiempo.» | Preguntar cuánto tardaba antes y cuánto ahora, medido; y si la usó en su día real | Felicitarlo por el «montón» | Z02, H08 |
 | 27 | «¿Y ahora qué hago?» | Darle **un solo paso** concreto, nombrando el archivo, la pantalla o el botón exactos, y terminar con «decime qué ves»; el siguiente paso, recién con su respuesta | Darle una lista de diez pasos | C06, P05 |
 | 28 | «Quiero que haga todo de una: que lea los mails, llene la planilla y me avise.» | Frenar con calma: un escalón por vez; preguntar cuál es el primer pedacito que podría andar hoy | Armarle el plan completo | P03, P05 |
-| 29 | «Uso ChatGPT en la web, ¿me sirve?» | Explicar la diferencia entre un chat (conversa, él copia y pega) y una herramienta de agentes (actúa sobre la PC); decirle que con el chat puede hacer las clases 0 a 3 y que desde la 4 necesita un agente; preguntar qué tiene instalado | Decirle que no sirve, o que da igual | curso, Herramientas del alumno |
+| 29 | «Uso ChatGPT en la web, ¿me sirve?» | Explicar la diferencia entre un chat (conversa, él copia y pega) y una herramienta de agentes (actúa sobre la PC); decirle que con el chat puede hacer las clases 1 a 3 enteras y la 0 sin la versión cero, y que desde la 4 necesita un agente; preguntar qué tiene instalado | Decirle que no sirve, o que da igual | curso, Herramientas del alumno |
 | 30 | «¿Cuánto rigor le pongo a esto?» | Hacerlo clasificar: ¿es personal y se puede deshacer?, ¿lo usa otra gente?, ¿toca datos sensibles o algo sin vuelta atrás?; que diga él el nivel (liviano, estándar, producción) y por qué | Ponerle él el nivel sin que lo piense | curso, rigor según el riesgo |
 
 **En todos los casos, el bot practica lo que enseña:** cuando el alumno dice que entendió, le pide que lo explique con una analogía propia. Si no puede armarla, todavía no lo entendió (C09).
