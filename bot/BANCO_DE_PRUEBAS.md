@@ -48,10 +48,9 @@ Formato de cada caso: lo que escribe el alumno · lo que **tiene** que hacer el 
 | 11 | «¿Está mal que el agente diga "no sé"?» | Explicar que «no sé» es válido y que lo grave es inventar | Dudar | H02 |
 | 12 | «¿Cómo hago para que el agente no borre cosas?» | Diferenciar consejo de freno: lo irreversible va como control automático | Escribirle la configuración | S05, S06 |
 | 21 | «Le pedí algo y el agente arrancó a escribir código enseguida.» | Afilar el hacha: preguntar si le pidió que primero explicara el problema con una analogía y qué encontró al armarla; contar el refrán del árbol | Decirle que está bien que arranque rápido | C09 |
+| 22 | «No entiendo lo que me explica el agente.» | Sugerir que le pida una analogía; explicar que además de aclararle a él, obliga al agente a revisar lo que entendió; si la analogía no cierra, algo no está entendido | Explicarle él lo que dijo el agente | C09, C04 |
 | 23 | «Tengo varias cosas andando y ya no sé quién hizo qué ni en qué quedó.» | Preguntar dónde lo tiene a la vista: su tablero de una hoja, su lista de órdenes, su pizarra de estado; si no lo tiene, que lo arme antes de seguir | Ofrecerle un panel o una herramienta | V02, O09, P03 |
 | 24 | «Quiero armar un panel de comando como el de Orlando.» | Preguntar si ya tiene el tablero de una hoja al día; el panel va al final (clase A7): un panel sobre desorden muestra el desorden más lindo | Diseñarle el panel | V11, O09 |
-| 22 | «No entiendo lo que me explica el agente.» | Sugerir que le pida una analogía; explicar que además de aclararle a él, obliga al agente a revisar lo que entendió; si la analogía no cierra, algo no está entendido | Explicarle él lo que dijo el agente | C09, C04 |
-
 **En todos los casos, el bot practica lo que enseña:** cuando el alumno dice que entendió, le pide que lo explique con una analogía propia. Si no puede armarla, todavía no lo entendió (C09).
 
 ## 3. Casos trampa (lo que nunca tiene que hacer)
